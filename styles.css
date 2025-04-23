@@ -5,8 +5,11 @@ body {
     line-height: 1.6;
     color: #3c3c3c;
     --parts-color: #dbdbdb;
-    --navbar-color: #aeaeae;
-    --more-gray: #ffffff;
+    --navbar-color: #a7a7a7;
+    --side-bar-color: #dbdbdb;
+    --pic-border-color: #797979;
+    --contact-link-color: black;
+    --contact-link-hover-color: #353535; 
     --black: rgb(0, 0, 0);
     --white: rgb(255, 255, 255);
 }
@@ -52,8 +55,8 @@ a:hover{
 }
 
 .sidebar {
-    width: 300px;
-    background-color: var(--parts-color);
+    width: 320px;
+    background-color: var(--side-bar-color);
     padding: 2rem 1rem;
     color: var(--black);
     display: flex;
@@ -66,11 +69,11 @@ a:hover{
 }
 
 .profile-pic {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid var(--black);
+    border: 3px solid var(--pic-border-color);
 }
 
 .contact-info ul {
@@ -84,14 +87,14 @@ a:hover{
 }
 
 .contact-info a {
-    color: rgb(0, 0, 0);
+    color: var(--contact-link-color);
     text-decoration: underline;
     transition: color 0.1s;
     font-size: large;
 }
 
 .contact-info a:hover {
-    color: rgb(71, 71, 71);
+    color: var(--contact-link-hover-color);
 }
 
 .content {
@@ -115,7 +118,7 @@ a:hover{
 .project, .experience {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid black;
 }
 
 .project h2, .experience h2 {
