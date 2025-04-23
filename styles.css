@@ -52,7 +52,7 @@ a:hover{
 }
 
 .sidebar {
-    width: 250px;
+    width: 300px;
     background-color: var(--parts-color);
     padding: 2rem 1rem;
     color: var(--black);
@@ -66,8 +66,8 @@ a:hover{
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--black);
@@ -84,19 +84,20 @@ a:hover{
 }
 
 .contact-info a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
-    transition: color 0.2s;
+    transition: color 0.1s;
+    font-size: large;
 }
-/* 
+
 .contact-info a:hover {
-    font-weight: bold;
-} */
+    color: rgb(71, 71, 71);
+}
 
 .content {
     flex: 1;
     padding: 2rem;
-    max-width: 100ch;
+    max-width: 120ch;
     margin: 0 auto;
 }
 
