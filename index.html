@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        head{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html">Work & Research Experience</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-pic-container">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="contact-info">
+                <ul>
+                    <li><a href="mailto:mohammad.rad81@gmail.com">Email</a></li>
+		            <li><a href="mailto:mhrad81@aut.ac.ir">Educational Email</a></li>
+                    <li><a href="https://www.linkedin.com/in/mohammad-heydari-rad/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/mohammadrad81/" target="_blank">GitHub</a></li>
+                    <li><a href="tel:+989197032011">Phone: (+98) 919 703 2011</a></li>
+                </ul>
+            </div>
+        </aside>
 
-<h1>Mohammad Heydari Rad</h1>
+        <!-- Main Content Area -->
+        <main class="content">
+            <h1>About Me</h1>
+            <p align="justify">I am Mohammad Heydari Rad, A Bachelors Computer Engineering student at Amirkabir University of Technology.
+                My main research topics are on Natural Language Processing (NLP) and Data Science and I spend most of my
+                time at NLP Lab located in CE faculty under supervision of Dr. Momtazi. Besides my main focus, I have done
+                projects related to computer architecture and GPU programming. </p>
+            
+            <!-- <h2>Background</h2> -->
+            <!-- <p>My journey began when I attended in computer </p> -->
 
-<p>Hello, I am Mohammad Heydari Rad.</p>
-
+            <h2>Honours and Awards</h2>
+            <ul>
+                <li> Ranked 119th (top 0.22%) in NationalUniversity Entrance Exam
+                    for Mathematics and Physics major among over 54000 participants</li>
+                <li>Silver Medalist of 28th Computer Engineering Olympiad, held by National Organization of
+                    Educational Testing</li>
+                <li>Ranked 10th in SemEval 2024 Task 8 Subtask A Multilingual track, by developing an AI-generated text detector</li>
+                <li>Achieved 1st place in diagnosing MS from MRI images competition of IAI Event 2024.</li>
+            </ul>
+            
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> C, Java, Python </li>
+                <li><strong>Hardware Description Languages:</strong> Verilog, VHDL </li>
+                <li><strong>Machine Learning:</strong> scikit-learn, tensorflow, pytorch, huggingface </li>
+                <li><strong>Parallel Programming:</strong> OpenMP, CUDA C, MPI </li>
+                <li><strong>DBMS:</strong> Postgres, SQL server </li>
+                <li><strong>Web Development:</strong> HTML, CSS, Django, DRF </li>
+            </ul>
+            
+            <h2>Education</h2>
+            <p>Diploma of Mathematics and Physics from Shahid Soltani 3 high school, 2016 - 2020</p>
+            <p>Bachelors of Computer Engineering from Amirkabir University of Technology, 2020 - Now</p>
+        </main>
+    </div>
 </body>
 </html>
-
-
